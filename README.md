@@ -44,3 +44,31 @@ src/main/java/com/example/multirole
 ├── service/ # Business logic + JWT service
 └── util/ # Seeder or helper classes
 
+
+
+## 🚀 Setup & Run
+
+### Option 1: Run Locally (PostgreSQL Installed)
+1. Clone the repo  
+   ```bash
+   git clone https://github.com/Ritesh18117/MutliRole-Auth---Spring-Boot.git
+   cd MutliRole-Auth---Spring-Boot
+
+2. Configure your PostgreSQL connection in application.properties.
+
+3. Build and run:
+  - mvn clean package
+  - java -jar target/your-app-name.jar
+
+
+4. The app starts on http://localhost:8080.
+
+Option 2: Use Docker + Docker Compose (Recommended)
+1. Ensure Docker & Docker Compose are installed.
+
+2. Run:
+  - docker-compose up --build
+
+3. This builds the app image and spins up both the API and PostgreSQL DB.
+
+4. Access the app on http://localhost:8080.
