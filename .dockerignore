@@ -1,0 +1,12 @@
+# Maven/IDE
+.idea
+*.iml
+*.log
+**/.DS_Store
+
+# Git
+.git
+.gitignore
+
+# Local env
+.env
